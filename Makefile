@@ -1,5 +1,5 @@
 version ?= latest
-ARTIFACT_ID=bh_testapp
+ARTIFACT_ID=bh-testapp
 REGISTRY=registry.zanox.com
 
 all: build

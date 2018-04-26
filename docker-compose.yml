@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   bh_testapp:
-   image: registry.zanox.com/bh_testapp
+   image: registry.zanox.com/bh-testapp
    tty: true
    ports:
     - "80:80"
