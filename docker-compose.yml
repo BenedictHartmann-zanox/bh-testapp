@@ -1,0 +1,9 @@
+version: "3.5"
+services:
+  bh_testapp:
+   image: registry.zanox.com/bh_testapp
+   tty: true
+   ports:
+    - "80:80"
+   deploy: 
+    replicas: 2
